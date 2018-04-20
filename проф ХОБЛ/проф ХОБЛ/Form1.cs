@@ -33,5 +33,21 @@ namespace проф_ХОБЛ
             else panel1.Enabled = true;
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedTab = tabControl1.TabPages["tabPage1"];
+        }
+
+        private void butt_Test_Click(object sender, EventArgs e)
+        {
+            Form test = new Form2();
+            test.Show();
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox2.Checked == false) butt_Test.Enabled = false;
+            else butt_Test.Enabled = true;
+        }
     }
 }

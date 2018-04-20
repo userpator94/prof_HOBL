@@ -45,8 +45,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.button5 = new System.Windows.Forms.Button();
+            this.butt_Test = new System.Windows.Forms.Button();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
@@ -67,6 +68,8 @@
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -86,7 +89,7 @@
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(631, 394);
+            this.tabControl1.Size = new System.Drawing.Size(631, 388);
             this.tabControl1.TabIndex = 4;
             // 
             // tabPage1
@@ -100,7 +103,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 25);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(623, 365);
+            this.tabPage1.Size = new System.Drawing.Size(623, 359);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Осн. факторы";
             // 
@@ -185,15 +188,15 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(623, 365);
+            this.tabPage2.Size = new System.Drawing.Size(623, 359);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Доп. факторы";
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(522, 324);
+            this.button3.Location = new System.Drawing.Point(507, 313);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(86, 29);
             this.button3.TabIndex = 12;
             this.button3.Text = "Далее";
             this.button3.UseVisualStyleBackColor = true;
@@ -201,12 +204,13 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(23, 324);
+            this.button2.Location = new System.Drawing.Point(23, 313);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(86, 29);
             this.button2.TabIndex = 11;
             this.button2.Text = "Назад";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // checkedListBox2
             // 
@@ -221,7 +225,7 @@
             "респираторные инфекции"});
             this.checkedListBox2.Location = new System.Drawing.Point(23, 173);
             this.checkedListBox2.Name = "checkedListBox2";
-            this.checkedListBox2.Size = new System.Drawing.Size(423, 85);
+            this.checkedListBox2.Size = new System.Drawing.Size(423, 68);
             this.checkedListBox2.TabIndex = 10;
             // 
             // comboBox3
@@ -283,34 +287,47 @@
             // 
             this.tabPage3.AutoScroll = true;
             this.tabPage3.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage3.Controls.Add(this.button5);
+            this.tabPage3.Controls.Add(this.butt_Test);
+            this.tabPage3.Controls.Add(this.checkBox2);
             this.tabPage3.Controls.Add(this.panel1);
             this.tabPage3.Controls.Add(this.checkBox1);
             this.tabPage3.Location = new System.Drawing.Point(4, 25);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(623, 365);
+            this.tabPage3.Size = new System.Drawing.Size(623, 359);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Жалобы";
             // 
-            // checkBox1
+            // button5
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.checkBox1.Location = new System.Drawing.Point(8, 15);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(323, 20);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "Одышка экспираторная: шкала одышки mMRC";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.button5.Location = new System.Drawing.Point(504, 313);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(86, 29);
+            this.button5.TabIndex = 4;
+            this.button5.Text = "Далее";
+            this.button5.UseVisualStyleBackColor = true;
             // 
-            // tabPage4
+            // butt_Test
             // 
-            this.tabPage4.Location = new System.Drawing.Point(4, 25);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(623, 365);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "tabPage4";
-            this.tabPage4.UseVisualStyleBackColor = true;
+            this.butt_Test.Enabled = false;
+            this.butt_Test.Location = new System.Drawing.Point(318, 310);
+            this.butt_Test.Name = "butt_Test";
+            this.butt_Test.Size = new System.Drawing.Size(75, 25);
+            this.butt_Test.TabIndex = 3;
+            this.butt_Test.Text = "тест";
+            this.butt_Test.UseVisualStyleBackColor = true;
+            this.butt_Test.Click += new System.EventHandler(this.butt_Test_Click);
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(8, 313);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(309, 20);
+            this.checkBox2.TabIndex = 2;
+            this.checkBox2.Text = "Оценочный тест по пХОБЛ в баллах по САТ";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
             // panel1
             // 
@@ -527,11 +544,32 @@
             this.radioButton1.Text = "0";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.checkBox1.Location = new System.Drawing.Point(8, 15);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(323, 20);
+            this.checkBox1.TabIndex = 0;
+            this.checkBox1.Text = "Одышка экспираторная: шкала одышки mMRC";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Location = new System.Drawing.Point(4, 25);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Size = new System.Drawing.Size(623, 359);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "tabPage4";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(631, 394);
+            this.ClientSize = new System.Drawing.Size(631, 388);
             this.Controls.Add(this.tabControl1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -591,6 +629,9 @@
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button butt_Test;
     }
 }
 

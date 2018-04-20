@@ -7,3 +7,4 @@ C:\Users\Илья\Documents\Visual Studio 2015\Projects\проф ХОБЛ\про
 C:\Users\Илья\Documents\Visual Studio 2015\Projects\проф ХОБЛ\проф ХОБЛ\obj\Debug\проф ХОБЛ.csproj.GenerateResource.Cache
 C:\Users\Илья\Documents\Visual Studio 2015\Projects\проф ХОБЛ\проф ХОБЛ\obj\Debug\проф ХОБЛ.exe
 C:\Users\Илья\Documents\Visual Studio 2015\Projects\проф ХОБЛ\проф ХОБЛ\obj\Debug\проф ХОБЛ.pdb
+C:\Users\Илья\Documents\Visual Studio 2015\Projects\проф ХОБЛ\проф ХОБЛ\obj\Debug\проф_ХОБЛ.Form2.resources
