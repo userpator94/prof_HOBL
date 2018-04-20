@@ -12,6 +12,7 @@ namespace проф_ХОБЛ
 {
     public partial class Form2 : Form
     {
+        public int CAT = 0;
         public Form2()
         {
             InitializeComponent();
@@ -59,6 +60,13 @@ namespace проф_ХОБЛ
         private void trackBar8_Scroll(object sender, EventArgs e)
         {
             TrackTips(trackBar8);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            CAT = trackBar1.Value + trackBar2.Value + trackBar3.Value + trackBar4.Value +
+                trackBar5.Value + trackBar6.Value + trackBar7.Value + trackBar8.Value;
+            this.Hide();
         }
     }
 }

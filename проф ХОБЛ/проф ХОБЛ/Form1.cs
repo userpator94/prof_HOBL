@@ -38,9 +38,14 @@ namespace проф_ХОБЛ
             tabControl1.SelectedTab = tabControl1.TabPages["tabPage1"];
         }
 
+        Form2 test;
         private void butt_Test_Click(object sender, EventArgs e)
         {
-            Form test = new Form2();
+            
+            if (test == null || test.IsDisposed)
+            {
+                test = new Form2();                
+            }
             test.Show();
         }
 
@@ -48,6 +53,61 @@ namespace проф_ХОБЛ
         {
             if (checkBox2.Checked == false) butt_Test.Enabled = false;
             else butt_Test.Enabled = true;
+        }
+
+        private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox3.Checked)
+            {
+                checkBox4.Enabled = false;
+                checkBox5.Enabled = false;
+            }
+            else
+            {
+                checkBox4.Enabled = true;
+                checkBox5.Enabled = true;
+            }
+        }
+
+        private void checkBox4_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox4.Checked || checkBox5.Checked)
+            {
+                checkBox3.Checked = false;
+                checkBox3.Enabled = false;
+            }
+            else 
+                checkBox3.Enabled = true; 
+        }
+
+        private void checkBox5_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox4.Checked || checkBox5.Checked)
+            {
+                checkBox3.Checked = false;
+                checkBox3.Enabled = false;
+            }
+            else checkBox3.Enabled = true; 
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedTab = tabControl1.TabPages["tabPage4"];
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedTab = tabControl1.TabPages["tabPage5"];
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedTab = tabControl1.TabPages["tabPage6"];
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedTab = tabControl1.TabPages["tabPage4"];
         }
     }
 }
