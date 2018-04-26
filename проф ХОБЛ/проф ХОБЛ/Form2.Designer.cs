@@ -30,6 +30,13 @@
         {
             this.components = new System.ComponentModel.Container();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.trackBar8 = new System.Windows.Forms.TrackBar();
+            this.trackBar7 = new System.Windows.Forms.TrackBar();
+            this.trackBar6 = new System.Windows.Forms.TrackBar();
+            this.trackBar5 = new System.Windows.Forms.TrackBar();
+            this.trackBar4 = new System.Windows.Forms.TrackBar();
+            this.trackBar3 = new System.Windows.Forms.TrackBar();
+            this.trackBar2 = new System.Windows.Forms.TrackBar();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -49,27 +56,20 @@
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.trackBar1 = new System.Windows.Forms.TrackBar();
-            this.trackBar2 = new System.Windows.Forms.TrackBar();
-            this.trackBar3 = new System.Windows.Forms.TrackBar();
-            this.trackBar4 = new System.Windows.Forms.TrackBar();
-            this.trackBar5 = new System.Windows.Forms.TrackBar();
-            this.trackBar6 = new System.Windows.Forms.TrackBar();
-            this.trackBar7 = new System.Windows.Forms.TrackBar();
-            this.trackBar8 = new System.Windows.Forms.TrackBar();
             this.label2 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.button1 = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.tableLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -121,6 +121,83 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(738, 327);
             this.tableLayoutPanel1.TabIndex = 0;
+            // 
+            // trackBar8
+            // 
+            this.trackBar8.Location = new System.Drawing.Point(266, 303);
+            this.trackBar8.Maximum = 5;
+            this.trackBar8.Minimum = 1;
+            this.trackBar8.Name = "trackBar8";
+            this.trackBar8.Size = new System.Drawing.Size(139, 29);
+            this.trackBar8.TabIndex = 26;
+            this.trackBar8.Value = 3;
+            this.trackBar8.Scroll += new System.EventHandler(this.trackBar8_Scroll);
+            // 
+            // trackBar7
+            // 
+            this.trackBar7.Location = new System.Drawing.Point(266, 272);
+            this.trackBar7.Maximum = 5;
+            this.trackBar7.Minimum = 1;
+            this.trackBar7.Name = "trackBar7";
+            this.trackBar7.Size = new System.Drawing.Size(139, 25);
+            this.trackBar7.TabIndex = 25;
+            this.trackBar7.Value = 3;
+            this.trackBar7.Scroll += new System.EventHandler(this.trackBar7_Scroll);
+            // 
+            // trackBar6
+            // 
+            this.trackBar6.Location = new System.Drawing.Point(266, 222);
+            this.trackBar6.Maximum = 5;
+            this.trackBar6.Minimum = 1;
+            this.trackBar6.Name = "trackBar6";
+            this.trackBar6.Size = new System.Drawing.Size(139, 44);
+            this.trackBar6.TabIndex = 24;
+            this.trackBar6.Value = 3;
+            this.trackBar6.Scroll += new System.EventHandler(this.trackBar6_Scroll);
+            // 
+            // trackBar5
+            // 
+            this.trackBar5.Location = new System.Drawing.Point(266, 183);
+            this.trackBar5.Maximum = 5;
+            this.trackBar5.Minimum = 1;
+            this.trackBar5.Name = "trackBar5";
+            this.trackBar5.Size = new System.Drawing.Size(139, 33);
+            this.trackBar5.TabIndex = 23;
+            this.trackBar5.Value = 3;
+            this.trackBar5.Scroll += new System.EventHandler(this.trackBar5_Scroll);
+            // 
+            // trackBar4
+            // 
+            this.trackBar4.Location = new System.Drawing.Point(266, 133);
+            this.trackBar4.Maximum = 5;
+            this.trackBar4.Minimum = 1;
+            this.trackBar4.Name = "trackBar4";
+            this.trackBar4.Size = new System.Drawing.Size(139, 44);
+            this.trackBar4.TabIndex = 22;
+            this.trackBar4.Value = 3;
+            this.trackBar4.Scroll += new System.EventHandler(this.trackBar4_Scroll);
+            // 
+            // trackBar3
+            // 
+            this.trackBar3.Location = new System.Drawing.Point(266, 98);
+            this.trackBar3.Maximum = 5;
+            this.trackBar3.Minimum = 1;
+            this.trackBar3.Name = "trackBar3";
+            this.trackBar3.Size = new System.Drawing.Size(139, 29);
+            this.trackBar3.TabIndex = 21;
+            this.trackBar3.Value = 3;
+            this.trackBar3.Scroll += new System.EventHandler(this.trackBar3_Scroll);
+            // 
+            // trackBar2
+            // 
+            this.trackBar2.Location = new System.Drawing.Point(266, 63);
+            this.trackBar2.Maximum = 5;
+            this.trackBar2.Minimum = 1;
+            this.trackBar2.Name = "trackBar2";
+            this.trackBar2.Size = new System.Drawing.Size(139, 29);
+            this.trackBar2.TabIndex = 20;
+            this.trackBar2.Value = 3;
+            this.trackBar2.Scroll += new System.EventHandler(this.trackBar2_Scroll);
             // 
             // label1
             // 
@@ -320,83 +397,6 @@
             this.trackBar1.Value = 3;
             this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
             // 
-            // trackBar2
-            // 
-            this.trackBar2.Location = new System.Drawing.Point(266, 63);
-            this.trackBar2.Maximum = 5;
-            this.trackBar2.Minimum = 1;
-            this.trackBar2.Name = "trackBar2";
-            this.trackBar2.Size = new System.Drawing.Size(139, 29);
-            this.trackBar2.TabIndex = 20;
-            this.trackBar2.Value = 3;
-            this.trackBar2.Scroll += new System.EventHandler(this.trackBar2_Scroll);
-            // 
-            // trackBar3
-            // 
-            this.trackBar3.Location = new System.Drawing.Point(266, 98);
-            this.trackBar3.Maximum = 5;
-            this.trackBar3.Minimum = 1;
-            this.trackBar3.Name = "trackBar3";
-            this.trackBar3.Size = new System.Drawing.Size(139, 29);
-            this.trackBar3.TabIndex = 21;
-            this.trackBar3.Value = 3;
-            this.trackBar3.Scroll += new System.EventHandler(this.trackBar3_Scroll);
-            // 
-            // trackBar4
-            // 
-            this.trackBar4.Location = new System.Drawing.Point(266, 133);
-            this.trackBar4.Maximum = 5;
-            this.trackBar4.Minimum = 1;
-            this.trackBar4.Name = "trackBar4";
-            this.trackBar4.Size = new System.Drawing.Size(139, 44);
-            this.trackBar4.TabIndex = 22;
-            this.trackBar4.Value = 3;
-            this.trackBar4.Scroll += new System.EventHandler(this.trackBar4_Scroll);
-            // 
-            // trackBar5
-            // 
-            this.trackBar5.Location = new System.Drawing.Point(266, 183);
-            this.trackBar5.Maximum = 5;
-            this.trackBar5.Minimum = 1;
-            this.trackBar5.Name = "trackBar5";
-            this.trackBar5.Size = new System.Drawing.Size(139, 33);
-            this.trackBar5.TabIndex = 23;
-            this.trackBar5.Value = 3;
-            this.trackBar5.Scroll += new System.EventHandler(this.trackBar5_Scroll);
-            // 
-            // trackBar6
-            // 
-            this.trackBar6.Location = new System.Drawing.Point(266, 222);
-            this.trackBar6.Maximum = 5;
-            this.trackBar6.Minimum = 1;
-            this.trackBar6.Name = "trackBar6";
-            this.trackBar6.Size = new System.Drawing.Size(139, 44);
-            this.trackBar6.TabIndex = 24;
-            this.trackBar6.Value = 3;
-            this.trackBar6.Scroll += new System.EventHandler(this.trackBar6_Scroll);
-            // 
-            // trackBar7
-            // 
-            this.trackBar7.Location = new System.Drawing.Point(266, 272);
-            this.trackBar7.Maximum = 5;
-            this.trackBar7.Minimum = 1;
-            this.trackBar7.Name = "trackBar7";
-            this.trackBar7.Size = new System.Drawing.Size(139, 25);
-            this.trackBar7.TabIndex = 25;
-            this.trackBar7.Value = 3;
-            this.trackBar7.Scroll += new System.EventHandler(this.trackBar7_Scroll);
-            // 
-            // trackBar8
-            // 
-            this.trackBar8.Location = new System.Drawing.Point(266, 303);
-            this.trackBar8.Maximum = 5;
-            this.trackBar8.Minimum = 1;
-            this.trackBar8.Name = "trackBar8";
-            this.trackBar8.Size = new System.Drawing.Size(139, 29);
-            this.trackBar8.TabIndex = 26;
-            this.trackBar8.Value = 3;
-            this.trackBar8.Scroll += new System.EventHandler(this.trackBar8_Scroll);
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -451,17 +451,17 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "Form2";
-            this.Text = "Оценочный тест по пХОБЛ в баллах по САТ";
+            this.Text = "Оценочный тест по ПХОБЛ в баллах (САТ)";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

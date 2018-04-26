@@ -45,9 +45,10 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.label50 = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.butt_Test = new System.Windows.Forms.Button();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
@@ -68,63 +69,66 @@
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.label19 = new System.Windows.Forms.Label();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.label21 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.radioButton8 = new System.Windows.Forms.RadioButton();
-            this.radioButton9 = new System.Windows.Forms.RadioButton();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.radioButton10 = new System.Windows.Forms.RadioButton();
-            this.radioButton11 = new System.Windows.Forms.RadioButton();
-            this.radioButton12 = new System.Windows.Forms.RadioButton();
-            this.radioButton13 = new System.Windows.Forms.RadioButton();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
             this.label42 = new System.Windows.Forms.Label();
             this.label43 = new System.Windows.Forms.Label();
             this.label44 = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.radioButton13 = new System.Windows.Forms.RadioButton();
+            this.radioButton12 = new System.Windows.Forms.RadioButton();
+            this.radioButton11 = new System.Windows.Forms.RadioButton();
+            this.radioButton10 = new System.Windows.Forms.RadioButton();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.radioButton9 = new System.Windows.Forms.RadioButton();
+            this.radioButton8 = new System.Windows.Forms.RadioButton();
+            this.radioButton7 = new System.Windows.Forms.RadioButton();
+            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.label21 = new System.Windows.Forms.Label();
+            this.checkBox9 = new System.Windows.Forms.CheckBox();
+            this.checkBox8 = new System.Windows.Forms.CheckBox();
+            this.checkBox7 = new System.Windows.Forms.CheckBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.label19 = new System.Windows.Forms.Label();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.button4 = new System.Windows.Forms.Button();
-            this.label46 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.label48 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.label52 = new System.Windows.Forms.Label();
+            this.label51 = new System.Windows.Forms.Label();
+            this.label53 = new System.Windows.Forms.Label();
+            this.label54 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -132,9 +136,10 @@
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tabPage4.SuspendLayout();
-            this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.tabPage5.SuspendLayout();
+            this.tabPage6.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -181,6 +186,7 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "от 1,1 до 2 ПДК",
@@ -210,7 +216,7 @@
             this.checkedListBox1.Items.AddRange(new object[] {
             "фиброгенные промышленные аэрозоли",
             "высокодисперсные сварочные аэрозоли",
-            "токчиный газ, масляный туман",
+            "токсичный газ, масляный туман",
             "органическая пыль (пыль птицефабрик и свиноферм, зерновая, хлопковая и др.)",
             "угольная пыль",
             "металлическая пыль и пары металлов",
@@ -231,9 +237,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(15, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(387, 16);
+            this.label1.Size = new System.Drawing.Size(399, 16);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Наличие проессионального контакта работника с:";
+            this.label1.Text = "Наличие профессионального контакта работника с:";
             // 
             // tabPage2
             // 
@@ -280,13 +286,13 @@
             this.checkedListBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.checkedListBox2.FormattingEnabled = true;
             this.checkedListBox2.Items.AddRange(new object[] {
-            "неблагоприятный микроклимат (перегрев, переохлаждение)",
+            "неблагоприятный микроклимат (перегревание, переохлаждение)",
             "физические перегрузки",
             "табакокурение",
             "респираторные инфекции"});
             this.checkedListBox2.Location = new System.Drawing.Point(23, 173);
             this.checkedListBox2.Name = "checkedListBox2";
-            this.checkedListBox2.Size = new System.Drawing.Size(423, 68);
+            this.checkedListBox2.Size = new System.Drawing.Size(480, 68);
             this.checkedListBox2.TabIndex = 10;
             // 
             // comboBox3
@@ -313,6 +319,7 @@
             // 
             // comboBox2
             // 
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
@@ -330,9 +337,9 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label4.Location = new System.Drawing.Point(20, 52);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(347, 16);
+            this.label4.Size = new System.Drawing.Size(476, 16);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Стаж работы в условиях этиопатогенетич. фактора";
+            this.label4.Text = "Стаж работы в условиях воздействия этиопатогенетического фактора";
             // 
             // label3
             // 
@@ -348,20 +355,40 @@
             // 
             this.tabPage3.AutoScroll = true;
             this.tabPage3.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage3.Controls.Add(this.label50);
+            this.tabPage3.Controls.Add(this.label49);
             this.tabPage3.Controls.Add(this.button5);
             this.tabPage3.Controls.Add(this.butt_Test);
-            this.tabPage3.Controls.Add(this.checkBox2);
             this.tabPage3.Controls.Add(this.panel1);
-            this.tabPage3.Controls.Add(this.checkBox1);
             this.tabPage3.Location = new System.Drawing.Point(4, 25);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Size = new System.Drawing.Size(623, 359);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Жалобы";
             // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label50.Location = new System.Drawing.Point(9, 325);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(319, 16);
+            this.label50.TabIndex = 6;
+            this.label50.Text = "Оценочный тест по ПХОБЛ в баллах (САТ)";
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label49.Location = new System.Drawing.Point(7, 12);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(343, 16);
+            this.label49.TabIndex = 5;
+            this.label49.Text = "Одышка экспираторная: шкала одышки mMRC";
+            // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(504, 313);
+            this.button5.Location = new System.Drawing.Point(504, 319);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(86, 29);
             this.button5.TabIndex = 4;
@@ -371,25 +398,13 @@
             // 
             // butt_Test
             // 
-            this.butt_Test.Enabled = false;
-            this.butt_Test.Location = new System.Drawing.Point(318, 310);
+            this.butt_Test.Location = new System.Drawing.Point(344, 320);
             this.butt_Test.Name = "butt_Test";
-            this.butt_Test.Size = new System.Drawing.Size(75, 25);
+            this.butt_Test.Size = new System.Drawing.Size(75, 27);
             this.butt_Test.TabIndex = 3;
             this.butt_Test.Text = "тест";
             this.butt_Test.UseVisualStyleBackColor = true;
             this.butt_Test.Click += new System.EventHandler(this.butt_Test_Click);
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(8, 313);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(309, 20);
-            this.checkBox2.TabIndex = 2;
-            this.checkBox2.Text = "Оценочный тест по пХОБЛ в баллах по САТ";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
             // panel1
             // 
@@ -409,7 +424,6 @@
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.panel2);
-            this.panel1.Enabled = false;
             this.panel1.Location = new System.Drawing.Point(8, 31);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(582, 267);
@@ -606,18 +620,6 @@
             this.radioButton1.Text = "0";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.checkBox1.Location = new System.Drawing.Point(8, 15);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(323, 20);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "Одышка экспираторная: шкала одышки mMRC";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
-            // 
             // tabPage4
             // 
             this.tabPage4.AutoScroll = true;
@@ -665,249 +667,153 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Диагностика I";
             // 
-            // label19
+            // button4
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label19.Location = new System.Drawing.Point(8, 16);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(162, 16);
-            this.label19.TabIndex = 0;
-            this.label19.Text = "Общий анализ крови";
+            this.button4.Location = new System.Drawing.Point(496, 548);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(86, 29);
+            this.button4.TabIndex = 37;
+            this.button4.Text = "Далее";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // checkBox3
+            // label42
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(172, 16);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(70, 20);
-            this.checkBox3.TabIndex = 1;
-            this.checkBox3.Text = "Норма";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
+            this.label42.AutoSize = true;
+            this.label42.Location = new System.Drawing.Point(215, 554);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(32, 16);
+            this.label42.TabIndex = 36;
+            this.label42.Text = "< 75";
             // 
-            // checkBox4
+            // label43
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(172, 42);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(122, 20);
-            this.checkBox4.TabIndex = 2;
-            this.checkBox4.Text = "Эозинофилия ";
-            this.checkBox4.UseVisualStyleBackColor = true;
-            this.checkBox4.CheckedChanged += new System.EventHandler(this.checkBox4_CheckedChanged);
+            this.label43.AutoSize = true;
+            this.label43.Location = new System.Drawing.Point(215, 528);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(40, 16);
+            this.label43.TabIndex = 35;
+            this.label43.Text = "75-89";
             // 
-            // checkBox5
+            // label44
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(172, 68);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(132, 36);
-            this.checkBox5.TabIndex = 3;
-            this.checkBox5.Text = "СО2 более 15 у ♀\r\n         более 20 у ♂";
-            this.checkBox5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.checkBox5.UseVisualStyleBackColor = true;
-            this.checkBox5.CheckedChanged += new System.EventHandler(this.checkBox5_CheckedChanged);
+            this.label44.AutoSize = true;
+            this.label44.Location = new System.Drawing.Point(215, 502);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(40, 16);
+            this.label44.TabIndex = 34;
+            this.label44.Text = "90-94";
             // 
-            // checkBox6
+            // label45
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(11, 205);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(200, 20);
-            this.checkBox6.TabIndex = 4;
-            this.checkBox6.Text = "Дифицит α1-антитрипсина";
-            this.checkBox6.UseVisualStyleBackColor = true;
+            this.label45.AutoSize = true;
+            this.label45.Location = new System.Drawing.Point(215, 476);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(32, 16);
+            this.label45.TabIndex = 33;
+            this.label45.Text = "> 95";
             // 
-            // label20
+            // label41
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label20.Location = new System.Drawing.Point(8, 112);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(130, 16);
-            this.label20.TabIndex = 5;
-            this.label20.Text = "Анализ мокроты";
+            this.label41.AutoSize = true;
+            this.label41.Location = new System.Drawing.Point(125, 554);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(32, 16);
+            this.label41.TabIndex = 32;
+            this.label41.Text = "< 40";
             // 
-            // checkBox7
+            // label40
             // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(144, 111);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(98, 20);
-            this.checkBox7.TabIndex = 6;
-            this.checkBox7.Text = "лейкоциты";
-            this.checkBox7.UseVisualStyleBackColor = true;
+            this.label40.AutoSize = true;
+            this.label40.Location = new System.Drawing.Point(125, 528);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(40, 16);
+            this.label40.TabIndex = 31;
+            this.label40.Text = "40-59";
             // 
-            // checkBox8
+            // label39
             // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(144, 137);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(90, 20);
-            this.checkBox8.TabIndex = 7;
-            this.checkBox8.Text = "эпителий";
-            this.checkBox8.UseVisualStyleBackColor = true;
+            this.label39.AutoSize = true;
+            this.label39.Location = new System.Drawing.Point(125, 502);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(40, 16);
+            this.label39.TabIndex = 30;
+            this.label39.Text = "60-79";
             // 
-            // checkBox9
+            // label38
             // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(144, 163);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(186, 36);
-            this.checkBox9.TabIndex = 8;
-            this.checkBox9.Text = "коморбидные состояния\r\n                        (туберкулёз)";
-            this.checkBox9.UseVisualStyleBackColor = true;
+            this.label38.AutoSize = true;
+            this.label38.Location = new System.Drawing.Point(125, 476);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(32, 16);
+            this.label38.TabIndex = 29;
+            this.label38.Text = "> 80";
             // 
-            // label21
+            // label37
             // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label21.Location = new System.Drawing.Point(8, 245);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(291, 16);
-            this.label21.TabIndex = 9;
-            this.label21.Text = "Спирометрия (ФВД + пробы с бронхит)";
+            this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label37.Location = new System.Drawing.Point(215, 458);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(48, 13);
+            this.label37.TabIndex = 28;
+            this.label37.Text = "SpО2, %";
             // 
-            // panel3
+            // label36
             // 
-            this.panel3.Controls.Add(this.radioButton9);
-            this.panel3.Controls.Add(this.radioButton8);
-            this.panel3.Controls.Add(this.radioButton7);
-            this.panel3.Controls.Add(this.radioButton6);
-            this.panel3.Location = new System.Drawing.Point(11, 282);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(127, 111);
-            this.panel3.TabIndex = 11;
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label36.Location = new System.Drawing.Point(102, 458);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(84, 13);
+            this.label36.TabIndex = 27;
+            this.label36.Text = "РаО2, мм.рт.ст";
             // 
-            // radioButton6
+            // label35
             // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.Location = new System.Drawing.Point(0, 3);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(70, 20);
-            this.radioButton6.TabIndex = 0;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "лёгкая";
-            this.radioButton6.UseVisualStyleBackColor = true;
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(36, 476);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(15, 16);
+            this.label35.TabIndex = 26;
+            this.label35.Text = "0";
             // 
-            // radioButton7
+            // label34
             // 
-            this.radioButton7.AutoSize = true;
-            this.radioButton7.Location = new System.Drawing.Point(0, 29);
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(127, 20);
-            this.radioButton7.TabIndex = 1;
-            this.radioButton7.TabStop = true;
-            this.radioButton7.Text = "среднетяжёлая";
-            this.radioButton7.UseVisualStyleBackColor = true;
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(36, 554);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(17, 16);
+            this.label34.TabIndex = 25;
+            this.label34.Text = "ⅠⅠⅠ";
             // 
-            // radioButton8
+            // label33
             // 
-            this.radioButton8.AutoSize = true;
-            this.radioButton8.Location = new System.Drawing.Point(0, 51);
-            this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(80, 20);
-            this.radioButton8.TabIndex = 2;
-            this.radioButton8.TabStop = true;
-            this.radioButton8.Text = "тяжёлая";
-            this.radioButton8.UseVisualStyleBackColor = true;
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(36, 528);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(14, 16);
+            this.label33.TabIndex = 24;
+            this.label33.Text = "ⅠⅠ";
             // 
-            // radioButton9
+            // label32
             // 
-            this.radioButton9.AutoSize = true;
-            this.radioButton9.Location = new System.Drawing.Point(0, 77);
-            this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(130, 20);
-            this.radioButton9.TabIndex = 3;
-            this.radioButton9.TabStop = true;
-            this.radioButton9.Text = "крайне тяжёлая";
-            this.radioButton9.UseVisualStyleBackColor = true;
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(36, 502);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(11, 16);
+            this.label32.TabIndex = 23;
+            this.label32.Text = "Ⅰ";
             // 
-            // label22
+            // label31
             // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label22.Location = new System.Drawing.Point(58, 266);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(48, 13);
-            this.label22.TabIndex = 12;
-            this.label22.Text = "степень";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label23.Location = new System.Drawing.Point(143, 266);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(173, 13);
-            this.label23.TabIndex = 13;
-            this.label23.Text = "постбранходилаторное ОФВ1, %";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(143, 287);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(84, 16);
-            this.label24.TabIndex = 14;
-            this.label24.Text = "ОФВ1 ≥ 80%";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(143, 311);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(123, 16);
-            this.label25.TabIndex = 15;
-            this.label25.Text = "50% ≤ ОФВ1 < 80%";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(143, 335);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(123, 16);
-            this.label26.TabIndex = 16;
-            this.label26.Text = "30% ≤ ОФВ1 < 50%";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(143, 361);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(172, 32);
-            this.label27.TabIndex = 17;
-            this.label27.Text = "ОФВ1 < 30% \r\nили <50% + ДН ПЖнедост";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label28.Location = new System.Drawing.Point(331, 266);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(251, 13);
-            this.label28.TabIndex = 18;
-            this.label28.Text = "постбранходилаторное значение ОФВ1/ФЖЭЛ";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(331, 311);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(35, 16);
-            this.label29.TabIndex = 19;
-            this.label29.Text = "< 0.7";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label30.Location = new System.Drawing.Point(8, 434);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(431, 16);
-            this.label30.TabIndex = 20;
-            this.label30.Text = "Определение газвого состава крови и пульсоксиметрия";
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label31.Location = new System.Drawing.Point(14, 458);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(68, 13);
+            this.label31.TabIndex = 22;
+            this.label31.Text = "степень ДН";
             // 
             // panel4
             // 
@@ -915,43 +821,10 @@
             this.panel4.Controls.Add(this.radioButton12);
             this.panel4.Controls.Add(this.radioButton11);
             this.panel4.Controls.Add(this.radioButton10);
-            this.panel4.Location = new System.Drawing.Point(11, 470);
+            this.panel4.Location = new System.Drawing.Point(11, 471);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(19, 122);
             this.panel4.TabIndex = 21;
-            // 
-            // radioButton10
-            // 
-            this.radioButton10.AutoSize = true;
-            this.radioButton10.Location = new System.Drawing.Point(0, 3);
-            this.radioButton10.Name = "radioButton10";
-            this.radioButton10.Size = new System.Drawing.Size(108, 20);
-            this.radioButton10.TabIndex = 0;
-            this.radioButton10.TabStop = true;
-            this.radioButton10.Text = "radioButton10";
-            this.radioButton10.UseVisualStyleBackColor = true;
-            // 
-            // radioButton11
-            // 
-            this.radioButton11.AutoSize = true;
-            this.radioButton11.Location = new System.Drawing.Point(0, 29);
-            this.radioButton11.Name = "radioButton11";
-            this.radioButton11.Size = new System.Drawing.Size(108, 20);
-            this.radioButton11.TabIndex = 1;
-            this.radioButton11.TabStop = true;
-            this.radioButton11.Text = "radioButton11";
-            this.radioButton11.UseVisualStyleBackColor = true;
-            // 
-            // radioButton12
-            // 
-            this.radioButton12.AutoSize = true;
-            this.radioButton12.Location = new System.Drawing.Point(0, 55);
-            this.radioButton12.Name = "radioButton12";
-            this.radioButton12.Size = new System.Drawing.Size(108, 20);
-            this.radioButton12.TabIndex = 2;
-            this.radioButton12.TabStop = true;
-            this.radioButton12.Text = "radioButton12";
-            this.radioButton12.UseVisualStyleBackColor = true;
             // 
             // radioButton13
             // 
@@ -964,143 +837,282 @@
             this.radioButton13.Text = "radioButton13";
             this.radioButton13.UseVisualStyleBackColor = true;
             // 
-            // label31
+            // radioButton12
             // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label31.Location = new System.Drawing.Point(14, 457);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(68, 13);
-            this.label31.TabIndex = 22;
-            this.label31.Text = "степень ДН";
+            this.radioButton12.AutoSize = true;
+            this.radioButton12.Location = new System.Drawing.Point(0, 55);
+            this.radioButton12.Name = "radioButton12";
+            this.radioButton12.Size = new System.Drawing.Size(108, 20);
+            this.radioButton12.TabIndex = 2;
+            this.radioButton12.TabStop = true;
+            this.radioButton12.Text = "radioButton12";
+            this.radioButton12.UseVisualStyleBackColor = true;
             // 
-            // label32
+            // radioButton11
             // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(36, 501);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(11, 16);
-            this.label32.TabIndex = 23;
-            this.label32.Text = "Ⅰ";
+            this.radioButton11.AutoSize = true;
+            this.radioButton11.Location = new System.Drawing.Point(0, 29);
+            this.radioButton11.Name = "radioButton11";
+            this.radioButton11.Size = new System.Drawing.Size(108, 20);
+            this.radioButton11.TabIndex = 1;
+            this.radioButton11.TabStop = true;
+            this.radioButton11.Text = "radioButton11";
+            this.radioButton11.UseVisualStyleBackColor = true;
             // 
-            // label33
+            // radioButton10
             // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(36, 527);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(14, 16);
-            this.label33.TabIndex = 24;
-            this.label33.Text = "ⅠⅠ";
+            this.radioButton10.AutoSize = true;
+            this.radioButton10.Location = new System.Drawing.Point(0, 3);
+            this.radioButton10.Name = "radioButton10";
+            this.radioButton10.Size = new System.Drawing.Size(108, 20);
+            this.radioButton10.TabIndex = 0;
+            this.radioButton10.TabStop = true;
+            this.radioButton10.Text = "radioButton10";
+            this.radioButton10.UseVisualStyleBackColor = true;
             // 
-            // label34
+            // label30
             // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(36, 553);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(17, 16);
-            this.label34.TabIndex = 25;
-            this.label34.Text = "ⅠⅠⅠ";
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label30.Location = new System.Drawing.Point(8, 435);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(431, 16);
+            this.label30.TabIndex = 20;
+            this.label30.Text = "Определение газвого состава крови и пульсоксиметрия";
             // 
-            // label35
+            // label29
             // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(36, 475);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(15, 16);
-            this.label35.TabIndex = 26;
-            this.label35.Text = "0";
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(439, 343);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(35, 16);
+            this.label29.TabIndex = 19;
+            this.label29.Text = "< 0.7";
             // 
-            // label36
+            // label28
             // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label36.Location = new System.Drawing.Point(102, 457);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(84, 13);
-            this.label36.TabIndex = 27;
-            this.label36.Text = "РаО2, мм.рт.ст";
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label28.Location = new System.Drawing.Point(331, 285);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(262, 13);
+            this.label28.TabIndex = 18;
+            this.label28.Text = "постбронходилататорное значение ОФВ1/ФЖЕЛ";
             // 
-            // label37
+            // label27
             // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label37.Location = new System.Drawing.Point(215, 457);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(48, 13);
-            this.label37.TabIndex = 28;
-            this.label37.Text = "SpО2, %";
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(143, 380);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(84, 16);
+            this.label27.TabIndex = 17;
+            this.label27.Text = "ОФВ1 < 30%";
             // 
-            // label38
+            // label26
             // 
-            this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(125, 475);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(32, 16);
-            this.label38.TabIndex = 29;
-            this.label38.Text = "> 80";
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(143, 354);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(123, 16);
+            this.label26.TabIndex = 16;
+            this.label26.Text = "30% ≤ ОФВ1 < 50%";
             // 
-            // label39
+            // label25
             // 
-            this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(125, 501);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(40, 16);
-            this.label39.TabIndex = 30;
-            this.label39.Text = "60-79";
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(143, 330);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(123, 16);
+            this.label25.TabIndex = 15;
+            this.label25.Text = "50% ≤ ОФВ1 < 80%";
             // 
-            // label40
+            // label24
             // 
-            this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(125, 527);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(40, 16);
-            this.label40.TabIndex = 31;
-            this.label40.Text = "40-59";
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(143, 306);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(84, 16);
+            this.label24.TabIndex = 14;
+            this.label24.Text = "ОФВ1 ≥ 80%";
             // 
-            // label41
+            // label23
             // 
-            this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(125, 553);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(32, 16);
-            this.label41.TabIndex = 32;
-            this.label41.Text = "< 40";
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label23.Location = new System.Drawing.Point(143, 285);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(184, 13);
+            this.label23.TabIndex = 13;
+            this.label23.Text = "постбронходилататорное ОФВ1, %";
             // 
-            // label42
+            // label22
             // 
-            this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(215, 553);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(32, 16);
-            this.label42.TabIndex = 36;
-            this.label42.Text = "< 75";
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label22.Location = new System.Drawing.Point(58, 285);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(48, 13);
+            this.label22.TabIndex = 12;
+            this.label22.Text = "степень";
             // 
-            // label43
+            // panel3
             // 
-            this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(215, 527);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(40, 16);
-            this.label43.TabIndex = 35;
-            this.label43.Text = "75-89";
+            this.panel3.Controls.Add(this.radioButton9);
+            this.panel3.Controls.Add(this.radioButton8);
+            this.panel3.Controls.Add(this.radioButton7);
+            this.panel3.Controls.Add(this.radioButton6);
+            this.panel3.Location = new System.Drawing.Point(11, 301);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(127, 111);
+            this.panel3.TabIndex = 11;
             // 
-            // label44
+            // radioButton9
             // 
-            this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(215, 501);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(40, 16);
-            this.label44.TabIndex = 34;
-            this.label44.Text = "90-94";
+            this.radioButton9.AutoSize = true;
+            this.radioButton9.Location = new System.Drawing.Point(0, 77);
+            this.radioButton9.Name = "radioButton9";
+            this.radioButton9.Size = new System.Drawing.Size(130, 20);
+            this.radioButton9.TabIndex = 3;
+            this.radioButton9.TabStop = true;
+            this.radioButton9.Text = "крайне тяжёлая";
+            this.radioButton9.UseVisualStyleBackColor = true;
             // 
-            // label45
+            // radioButton8
             // 
-            this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(215, 475);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(32, 16);
-            this.label45.TabIndex = 33;
-            this.label45.Text = "> 95";
+            this.radioButton8.AutoSize = true;
+            this.radioButton8.Location = new System.Drawing.Point(0, 51);
+            this.radioButton8.Name = "radioButton8";
+            this.radioButton8.Size = new System.Drawing.Size(80, 20);
+            this.radioButton8.TabIndex = 2;
+            this.radioButton8.TabStop = true;
+            this.radioButton8.Text = "тяжёлая";
+            this.radioButton8.UseVisualStyleBackColor = true;
+            // 
+            // radioButton7
+            // 
+            this.radioButton7.AutoSize = true;
+            this.radioButton7.Location = new System.Drawing.Point(0, 29);
+            this.radioButton7.Name = "radioButton7";
+            this.radioButton7.Size = new System.Drawing.Size(127, 20);
+            this.radioButton7.TabIndex = 1;
+            this.radioButton7.TabStop = true;
+            this.radioButton7.Text = "среднетяжёлая";
+            this.radioButton7.UseVisualStyleBackColor = true;
+            // 
+            // radioButton6
+            // 
+            this.radioButton6.AutoSize = true;
+            this.radioButton6.Location = new System.Drawing.Point(0, 3);
+            this.radioButton6.Name = "radioButton6";
+            this.radioButton6.Size = new System.Drawing.Size(70, 20);
+            this.radioButton6.TabIndex = 0;
+            this.radioButton6.TabStop = true;
+            this.radioButton6.Text = "лёгкая";
+            this.radioButton6.UseVisualStyleBackColor = true;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label21.Location = new System.Drawing.Point(8, 264);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(380, 16);
+            this.label21.TabIndex = 9;
+            this.label21.Text = "Спирометрия (ФВД + проба с бронходилататором)";
+            // 
+            // checkBox9
+            // 
+            this.checkBox9.AutoSize = true;
+            this.checkBox9.Location = new System.Drawing.Point(144, 173);
+            this.checkBox9.Name = "checkBox9";
+            this.checkBox9.Size = new System.Drawing.Size(247, 20);
+            this.checkBox9.TabIndex = 8;
+            this.checkBox9.Text = "микобактерии, атипичные клетки";
+            this.checkBox9.UseVisualStyleBackColor = true;
+            // 
+            // checkBox8
+            // 
+            this.checkBox8.AutoSize = true;
+            this.checkBox8.Location = new System.Drawing.Point(144, 147);
+            this.checkBox8.Name = "checkBox8";
+            this.checkBox8.Size = new System.Drawing.Size(90, 20);
+            this.checkBox8.TabIndex = 7;
+            this.checkBox8.Text = "эпителий";
+            this.checkBox8.UseVisualStyleBackColor = true;
+            // 
+            // checkBox7
+            // 
+            this.checkBox7.AutoSize = true;
+            this.checkBox7.Location = new System.Drawing.Point(144, 121);
+            this.checkBox7.Name = "checkBox7";
+            this.checkBox7.Size = new System.Drawing.Size(98, 20);
+            this.checkBox7.TabIndex = 6;
+            this.checkBox7.Text = "лейкоциты";
+            this.checkBox7.UseVisualStyleBackColor = true;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label20.Location = new System.Drawing.Point(8, 122);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(130, 16);
+            this.label20.TabIndex = 5;
+            this.label20.Text = "Анализ мокроты";
+            // 
+            // checkBox6
+            // 
+            this.checkBox6.AutoSize = true;
+            this.checkBox6.Location = new System.Drawing.Point(11, 215);
+            this.checkBox6.Name = "checkBox6";
+            this.checkBox6.Size = new System.Drawing.Size(200, 20);
+            this.checkBox6.TabIndex = 4;
+            this.checkBox6.Text = "Дефицит α1-антитрипсина";
+            this.checkBox6.UseVisualStyleBackColor = true;
+            // 
+            // checkBox5
+            // 
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.Location = new System.Drawing.Point(172, 68);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(180, 36);
+            this.checkBox5.TabIndex = 3;
+            this.checkBox5.Text = "СОЭ более 15 у женщин\r\n         более 20 у мужчин";
+            this.checkBox5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.checkBox5.UseVisualStyleBackColor = true;
+            this.checkBox5.CheckedChanged += new System.EventHandler(this.checkBox5_CheckedChanged);
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Location = new System.Drawing.Point(172, 42);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(122, 20);
+            this.checkBox4.TabIndex = 2;
+            this.checkBox4.Text = "Эозинофилия ";
+            this.checkBox4.UseVisualStyleBackColor = true;
+            this.checkBox4.CheckedChanged += new System.EventHandler(this.checkBox4_CheckedChanged);
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(172, 16);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(70, 20);
+            this.checkBox3.TabIndex = 1;
+            this.checkBox3.Text = "Норма";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label19.Location = new System.Drawing.Point(8, 16);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(162, 16);
+            this.label19.TabIndex = 0;
+            this.label19.Text = "Общий анализ крови";
             // 
             // tabPage5
             // 
@@ -1119,91 +1131,15 @@
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Диагностика II";
             // 
-            // button4
+            // button7
             // 
-            this.button4.Location = new System.Drawing.Point(505, 547);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(86, 29);
-            this.button4.TabIndex = 37;
-            this.button4.Text = "Далее";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // label46
-            // 
-            this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(18, 18);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(273, 16);
-            this.label46.TabIndex = 0;
-            this.label46.Text = "R-графия грудной клетки в 2х проекциях";
-            // 
-            // label47
-            // 
-            this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(18, 78);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(71, 16);
-            this.label47.TabIndex = 1;
-            this.label47.Text = "КТ лёгких";
-            // 
-            // label48
-            // 
-            this.label48.AutoSize = true;
-            this.label48.Location = new System.Drawing.Point(18, 142);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(53, 16);
-            this.label48.TabIndex = 2;
-            this.label48.Text = "ЭХОКТ";
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.DropDownWidth = 181;
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
-            "норма",
-            "бронхиальная обструкция",
-            "эмфизема",
-            "\"пневмофиброз\""});
-            this.comboBox4.Location = new System.Drawing.Point(21, 37);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(121, 24);
-            this.comboBox4.TabIndex = 3;
-            // 
-            // comboBox5
-            // 
-            this.comboBox5.DropDownWidth = 450;
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
-            "норма",
-            "воздушные ловушки (участки повышенной воздушности)",
-            "коморбидные состояния (туберкулёз, рак лёгких, пневмокомоз)"});
-            this.comboBox5.Location = new System.Drawing.Point(21, 97);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(121, 24);
-            this.comboBox5.TabIndex = 4;
-            // 
-            // comboBox6
-            // 
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
-            "N СДЛА 23-26",
-            "СДЛА < 35",
-            "СДЛА ≥ 35",
-            "СДЛА >35"});
-            this.comboBox6.Location = new System.Drawing.Point(21, 161);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(121, 24);
-            this.comboBox6.TabIndex = 5;
-            // 
-            // tabPage6
-            // 
-            this.tabPage6.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPage6.Location = new System.Drawing.Point(4, 25);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Size = new System.Drawing.Size(623, 359);
-            this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "Результат";
+            this.button7.Location = new System.Drawing.Point(520, 322);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(86, 29);
+            this.button7.TabIndex = 7;
+            this.button7.Text = "Далее";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
@@ -1215,15 +1151,126 @@
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
-            // button7
+            // comboBox6
             // 
-            this.button7.Location = new System.Drawing.Point(520, 322);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(86, 29);
-            this.button7.TabIndex = 7;
-            this.button7.Text = "Далее";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.comboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox6.FormattingEnabled = true;
+            this.comboBox6.Items.AddRange(new object[] {
+            "СДЛА 23-26",
+            "СДЛА < 35",
+            "СДЛА ≥ 35",
+            "СДЛА >35"});
+            this.comboBox6.Location = new System.Drawing.Point(21, 161);
+            this.comboBox6.Name = "comboBox6";
+            this.comboBox6.Size = new System.Drawing.Size(121, 24);
+            this.comboBox6.TabIndex = 5;
+            // 
+            // comboBox5
+            // 
+            this.comboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox5.DropDownWidth = 450;
+            this.comboBox5.FormattingEnabled = true;
+            this.comboBox5.Items.AddRange(new object[] {
+            "норма",
+            "воздушные ловушки (участки повышенной воздушности)",
+            "усиление лёгочного рисунка",
+            "эмфизема",
+            "пневмофиброз",
+            "коморбидные состояния (туберкулёз, рак лёгких)"});
+            this.comboBox5.Location = new System.Drawing.Point(21, 97);
+            this.comboBox5.Name = "comboBox5";
+            this.comboBox5.Size = new System.Drawing.Size(121, 24);
+            this.comboBox5.TabIndex = 4;
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox4.DropDownWidth = 181;
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Items.AddRange(new object[] {
+            "норма",
+            "усиление лёгочного рисунка",
+            "эмфизема",
+            "пневмофиброз"});
+            this.comboBox4.Location = new System.Drawing.Point(21, 37);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(121, 24);
+            this.comboBox4.TabIndex = 3;
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.Location = new System.Drawing.Point(18, 142);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(51, 16);
+            this.label48.TabIndex = 2;
+            this.label48.Text = "ЭХОКГ";
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Location = new System.Drawing.Point(18, 78);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(71, 16);
+            this.label47.TabIndex = 1;
+            this.label47.Text = "КТ лёгких";
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Location = new System.Drawing.Point(18, 18);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(273, 16);
+            this.label46.TabIndex = 0;
+            this.label46.Text = "R-графия грудной клетки в 2х проекциях";
+            // 
+            // tabPage6
+            // 
+            this.tabPage6.AutoScroll = true;
+            this.tabPage6.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage6.Controls.Add(this.label54);
+            this.tabPage6.Controls.Add(this.label53);
+            this.tabPage6.Controls.Add(this.label52);
+            this.tabPage6.Controls.Add(this.label51);
+            this.tabPage6.Location = new System.Drawing.Point(4, 25);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Size = new System.Drawing.Size(623, 359);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "Результат";
+            // 
+            // label52
+            // 
+            this.label52.Location = new System.Drawing.Point(18, 53);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(583, 75);
+            this.label52.TabIndex = 1;
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label51.Location = new System.Drawing.Point(272, 18);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(71, 20);
+            this.label51.TabIndex = 0;
+            this.label51.Text = "ДИАГНОЗ";
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label53.Location = new System.Drawing.Point(272, 155);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(72, 20);
+            this.label53.TabIndex = 2;
+            this.label53.Text = "ЛЕЧЕНИЕ";
+            // 
+            // label54
+            // 
+            this.label54.Location = new System.Drawing.Point(18, 187);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(583, 291);
+            this.label54.TabIndex = 3;
             // 
             // Form1
             // 
@@ -1233,7 +1280,7 @@
             this.Controls.Add(this.tabControl1);
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "профессиональный ХОБЛ";
+            this.Text = "профессиональная ХОБЛ";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
@@ -1247,12 +1294,14 @@
             this.panel2.PerformLayout();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
+            this.tabPage6.ResumeLayout(false);
+            this.tabPage6.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1276,7 +1325,6 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label18;
@@ -1298,7 +1346,6 @@
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button butt_Test;
         private System.Windows.Forms.CheckBox checkBox5;
@@ -1356,6 +1403,12 @@
         private System.Windows.Forms.TabPage tabPage6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.Label label52;
+        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.Label label54;
+        private System.Windows.Forms.Label label53;
     }
 }
 
