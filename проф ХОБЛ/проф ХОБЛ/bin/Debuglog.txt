@@ -1,0 +1,5 @@
+30.04.2018 15:07:41
+
+checkedListBox1: True
+checkedListBox1: True
+checkedListBox2: False

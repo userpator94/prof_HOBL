@@ -29,6 +29,11 @@
         private void InitializeComponent()
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.label57 = new System.Windows.Forms.Label();
+            this.label56 = new System.Windows.Forms.Label();
+            this.button8 = new System.Windows.Forms.Button();
+            this.label55 = new System.Windows.Forms.Label();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.button1 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -125,11 +130,12 @@
             this.label47 = new System.Windows.Forms.Label();
             this.label46 = new System.Windows.Forms.Label();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.label54 = new System.Windows.Forms.Label();
+            this.label53 = new System.Windows.Forms.Label();
             this.label52 = new System.Windows.Forms.Label();
             this.label51 = new System.Windows.Forms.Label();
-            this.label53 = new System.Windows.Forms.Label();
-            this.label54 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
+            this.tabPage7.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
@@ -144,6 +150,7 @@
             // 
             // tabControl1
             // 
+            this.tabControl1.Controls.Add(this.tabPage7);
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
@@ -157,6 +164,58 @@
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(631, 388);
             this.tabControl1.TabIndex = 4;
+            // 
+            // tabPage7
+            // 
+            this.tabPage7.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage7.Controls.Add(this.label57);
+            this.tabPage7.Controls.Add(this.label56);
+            this.tabPage7.Controls.Add(this.button8);
+            this.tabPage7.Controls.Add(this.label55);
+            this.tabPage7.Location = new System.Drawing.Point(4, 25);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Size = new System.Drawing.Size(623, 359);
+            this.tabPage7.TabIndex = 6;
+            // 
+            // label57
+            // 
+            this.label57.Location = new System.Drawing.Point(353, 268);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(262, 86);
+            this.label57.TabIndex = 3;
+            this.label57.Text = "Бабанов  Сергей Анатольевич\r\nБудаш Дарья Сергеевна\r\nБайкова Антонина Геннадьевна\r" +
+    "\nВострокнутова Марина Юрьевна\r\nБогуславский Дмитрий Георгиевич";
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Location = new System.Drawing.Point(287, 268);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(60, 16);
+            this.label56.TabIndex = 2;
+            this.label56.Text = "Авторы:";
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(209, 168);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(200, 23);
+            this.button8.TabIndex = 1;
+            this.button8.Text = "Начать расчёт";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // label55
+            // 
+            this.label55.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label55.Location = new System.Drawing.Point(82, 23);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(452, 142);
+            this.label55.TabIndex = 0;
+            this.label55.Text = "Программа диагностики и оценки риска развития профессиональной хронической обстру" +
+    "ктивной болезни лёгких у работающих в условиях воздействия промышленных аэрозоле" +
+    "й";
+            this.label55.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // tabPage1
             // 
@@ -449,7 +508,7 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(161, 100);
+            this.label16.Location = new System.Drawing.Point(161, 99);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(415, 64);
             this.label16.TabIndex = 35;
@@ -876,9 +935,9 @@
             this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label30.Location = new System.Drawing.Point(8, 435);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(431, 16);
+            this.label30.Size = new System.Drawing.Size(440, 16);
             this.label30.TabIndex = 20;
-            this.label30.Text = "Определение газвого состава крови и пульсоксиметрия";
+            this.label30.Text = "Определение газового состава крови и пульсоксиметрия";
             // 
             // label29
             // 
@@ -1077,7 +1136,7 @@
             this.checkBox5.Name = "checkBox5";
             this.checkBox5.Size = new System.Drawing.Size(180, 36);
             this.checkBox5.TabIndex = 3;
-            this.checkBox5.Text = "СОЭ более 15 у женщин\r\n         более 20 у мужчин";
+            this.checkBox5.Text = "СОЭ более 15 у женщин\r\n          более 20 у мужчин";
             this.checkBox5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.checkBox5.UseVisualStyleBackColor = true;
             this.checkBox5.CheckedChanged += new System.EventHandler(this.checkBox5_CheckedChanged);
@@ -1238,6 +1297,23 @@
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Результат";
             // 
+            // label54
+            // 
+            this.label54.Location = new System.Drawing.Point(18, 187);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(583, 291);
+            this.label54.TabIndex = 3;
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label53.Location = new System.Drawing.Point(272, 155);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(72, 20);
+            this.label53.TabIndex = 2;
+            this.label53.Text = "ЛЕЧЕНИЕ";
+            // 
             // label52
             // 
             this.label52.Location = new System.Drawing.Point(18, 53);
@@ -1255,23 +1331,6 @@
             this.label51.TabIndex = 0;
             this.label51.Text = "ДИАГНОЗ";
             // 
-            // label53
-            // 
-            this.label53.AutoSize = true;
-            this.label53.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label53.Location = new System.Drawing.Point(272, 155);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(72, 20);
-            this.label53.TabIndex = 2;
-            this.label53.Text = "ЛЕЧЕНИЕ";
-            // 
-            // label54
-            // 
-            this.label54.Location = new System.Drawing.Point(18, 187);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(583, 291);
-            this.label54.TabIndex = 3;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1280,8 +1339,12 @@
             this.Controls.Add(this.tabControl1);
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "профессиональная ХОБЛ";
+            this.Text = "Программа диагностики и оценки риска развития профессиональной хронической обстру" +
+    "ктивной болезни лёгких у работающих в условиях воздействия промыщленных аэрозоле" +
+    "й";
             this.tabControl1.ResumeLayout(false);
+            this.tabPage7.ResumeLayout(false);
+            this.tabPage7.PerformLayout();
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
@@ -1409,6 +1472,11 @@
         private System.Windows.Forms.Label label51;
         private System.Windows.Forms.Label label54;
         private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.TabPage tabPage7;
+        private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.Label label56;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Label label55;
     }
 }
 
